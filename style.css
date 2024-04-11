@@ -1,0 +1,159 @@
+.header{
+    background-color:chocolate;
+}
+#id1{
+    color: white;
+}
+.nav-link{
+    color:white;
+    font-size:20px;
+}
+.nav-link:hover{
+    background-color: brown;
+
+}
+#banner{
+    background-image: url("img1.jpg");
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 350px;
+}
+.col-md-6{
+    color: azure;
+}
+#banner h2{
+    background-color: black;
+    margin-bottom: 0px;
+}
+#banner p{
+    background-color: brown;
+    margin-bottom: 0px;
+
+}
+.box{
+    
+    height:400px;
+    width:23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e2e7e6 ;
+    flex-wrap:wrap ;
+    padding-bottom: 3vh;
+    
+
+}
+.box-img{
+    height:300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185;
+}
+.boxx{
+    
+    height:500px;
+    width:23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.email-signup{
+    background: white;
+    display: flex;
+    border-radius: 4px;
+    border-color: black;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    flex:1;
+    border:1px;
+    outline:0;
+    margin-left: 20px;
+     
+}
+.email-signup button{
+    background:darkorange;
+    border: 0;
+    outline:0;
+    color:white;
+    font-size: 16px;
+    cursor:pointer;
+    padding: 15px 30px;
+}
+.grow img{
+    transition: 1s ease;
+    }
+    
+    .col-md-4 img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    }
+    .site-footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      }
+      
+      .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+      }
+      
+      .footer-container div {
+        flex: 1;
+        min-width: 200px;
+        margin: 10px;
+      }
+      
+      .footer-container h3 {
+        margin-bottom: 15px;
+      }
+      
+      .footer-container ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .footer-container ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .footer-container a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .footer-social a {
+        margin-right: 10px;
+      }
+      
+      @media (max-width: 600px) {
+        .footer-container {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+      
